@@ -1,0 +1,65 @@
+body {
+  background: rgba(221, 88, 226, 0.712);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+form {
+  background: cyan;
+  padding: 1rem;
+  line-height: 2rem;
+}
+.btns {
+  background: red;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem;
+  color: aliceblue;
+}
+.btns:last-of-type {
+  background: rgb(191, 191, 207);
+  color: black;
+}
+#submit:hover,
+#rst:hover {
+  cursor: pointer;
+}
+#submit:active,
+#rst:active {
+  opacity: 50%;
+}
+#name1,
+#name2 {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 0.21rem;
+  width: fit-content;
+  text-transform: uppercase;
+}
+p {
+  overflow-wrap: break-word;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  background: whitesmoke;
+  border-radius: 12px;
+  /* padding: -80% 2%; */
+ margin:5% 0%;
+ width: calc(100% );
+}
+nav h1 {
+  text-align: center;
+  /* background: red; */
+  padding: 10% 12% 4% 4%;
+  color: cornsilk;
+  text-shadow: 0px 0px 5px black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#loo {
+  height: 12rem;
+  width: 12rem;
+  /* background-color: wheat; */
+  /* position: absolute; */
+}
