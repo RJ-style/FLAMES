@@ -1,5 +1,5 @@
 //DOM
-
+const jeeva="lksdlk";
 const getUsr1Name = document.getElementById("name1");
 const getUsr2Name = document.getElementById("name2");
 
