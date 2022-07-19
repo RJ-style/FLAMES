@@ -1,4 +1,3 @@
 # flames
 
-a simple flames application
-you can find relationshipp calculation
+a simple flames application ,you can find relationshipp calculation
