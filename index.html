@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FLAMEScalc</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="421.675"
+        height="413.065"
+        id="loo"
+        viewBox="0 0 421.675 413.065"
+      >
+        <ellipse
+          id="Ellipse_2"
+          data-name="Ellipse 2"
+          cx="89.5"
+          cy="85.5"
+          rx="89.5"
+          ry="85.5"
+          transform="translate(15 30)"
+          fill="#d91b42"
+        />
+        <ellipse
+          id="Ellipse_3"
+          data-name="Ellipse 3"
+          cx="89.5"
+          cy="85.5"
+          rx="89.5"
+          ry="85.5"
+          transform="translate(105 30)"
+          fill="#d91b42"
+        />
+        <path
+          id="Path_1"
+          data-name="Path 1"
+          d="M285.333,273.333S316,340,406.667,397.333c2.667,0,112-64,132-129.333S285.333,273.333,285.333,273.333Z"
+          transform="translate(-261 -124)"
+          fill="#d91b42"
+        />
+        <ellipse
+          id="Ellipse_4"
+          data-name="Ellipse 4"
+          cx="89.5"
+          cy="85.5"
+          rx="89.5"
+          ry="85.5"
+          transform="translate(200.352 30) rotate(45)"
+          fill="#8c15c5"
+        />
+        <ellipse
+          id="Ellipse_5"
+          data-name="Ellipse 5"
+          cx="89.5"
+          cy="85.5"
+          rx="89.5"
+          ry="85.5"
+          transform="translate(265.103 88.169) rotate(45)"
+          fill="#8c15c5"
+        />
+        <path
+          id="Path_2"
+          data-name="Path 2"
+          d="M285.333,273.333S316,340,406.667,397.333c2.667,0,112-64,132-129.333S285.333,273.333,285.333,273.333Z"
+          transform="translate(115.196 -279.526) rotate(45)"
+          fill="#8c15c5"
+        />
+      </svg>
+      <h1>Know your Rapport!</h1>
+    </nav>
+    <form id="form" method="POST" action="javascript:void(0);" onsubmit="run()">
+      <label for="name1">Your Name :</label>
+      <input
+        type="text"
+        id="name1"
+        name="name1"
+        required
+        autofocus
+        onkeypress="return (event.charCode > 64 && 
+      event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)||event.charCode==13"
+      /><br />
+
+      <label for="name2">Your Crush :</label>
+      <input
+        type="text"
+        id="name2"
+        name="name2"
+        onkeypress="return (event.charCode > 64 && 
+      event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)||event.charCode==13"
+        required
+      />
+      <br />
+
+      <input type="submit" value="Check" id="submit" class="btns" />
+      <input type="reset" class="btns" id="rst" />
+    </form>
+    <p id="output"></p>
+  </body>
+  <script src="Flames.js"></script>
+</html>
